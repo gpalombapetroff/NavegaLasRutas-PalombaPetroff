@@ -1,0 +1,27 @@
+
+.nav{
+    background-color: blue;
+    text-align: center;
+}
+.hola{
+    text-align: center;
+}
+.conteiner{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card {
+    background-color: #ddd;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
